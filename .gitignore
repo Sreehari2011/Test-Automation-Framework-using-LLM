@@ -1,0 +1,17 @@
+_pycache_/
+.pytest_chache/
+LOCATORS/
+FEATURES/
+POM/
+pom/
+features/
+locators/
+reports/
+run_log/
+tests/
+venv/
+chromedriver_minimal.log
+chromedriver.log
+debug_html.txt
+setup.log
+test.log

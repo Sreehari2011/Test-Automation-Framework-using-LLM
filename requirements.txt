@@ -1,0 +1,93 @@
+# Core dependencies for web automation
+selenium==4.26.0
+# Note: Updated for latest WebDriver features
+beautifulsoup4==4.12.2
+# Note: HTML parsing for locator extraction
+webdriver-manager==4.0.2
+# Note: ChromeDriver management
+
+# Testing framework dependencies
+pytest==8.3.2
+# Note: Updated for latest testing features
+pytest-bdd==7.3.0
+# Note: Gherkin-based testing
+pytest-rerunfailures==10.3
+# Note: Test rerun support
+pytest-xdist==3.6.1
+# Note: Parallel test execution
+allure-pytest==2.14.0
+# Note: Allure reporting
+
+# NLP dependencies for error analysis
+spacy==3.7.2
+# Note: Reverted to avoid yanked version 3.8.0
+spacy-legacy==3.0.12
+thinc==8.2.2
+pydantic==2.9.0
+langcodes==3.3.0
+typer==0.9.0
+srsly==2.4.8
+catalogue==2.0.10
+wasabi==1.1.2
+murmurhash==1.0.10
+cymem==2.0.8
+preshed==3.0.9
+spacy-loggers==1.0.5
+transformers==4.44.2
+# Note: Added for NLP/model integration
+torch==2.4.1
+# Note: Added for transformers compatibility
+
+# HTTP client for Ollama API
+requests==2.31.0
+urllib3==2.0.7
+certifi==2023.7.22
+
+# Additional utilities
+numpy==1.26.4
+# Note: Numerical operations
+trio==0.23.1
+# Note: Async support for selenium
+trio-websocket==0.11.1
+websocket-client==1.8.0
+# Note: Updated to resolve conflict with selenium==4.26.0
+soupsieve==2.5
+# Note: BeautifulSoup dependency
+iniconfig==2.0.0
+# Note: Pytest configuration
+packaging==23.2
+# Note: Dependency management
+pluggy==1.5.0
+# Note: Updated to resolve conflict with pytest==8.3.2
+exceptiongroup==1.1.3
+# Note: Exception handling
+tomli==2.0.1
+# Note: TOML parsing
+Mako==1.2.4
+# Note: Templating for pytest-bdd
+parse==1.19.1
+# Note: Parsing for pytest-bdd
+parse-type==0.6.2
+# Note: Type parsing for pytest-bdd
+typing-extensions==4.12.0
+# Note: Type hints
+execnet==2.1.0
+# Note: Distributed testing for pytest-xdist
+allure-python-commons==2.14.0
+# Note: Allure reporting utilities
+tqdm==4.66.1
+# Note: Progress bars
+filelock==3.12.4
+# Note: File locking
+regex==2023.10.3
+# Note: Regular expressions
+sympy==1.12
+# Note: Symbolic mathematics
+networkx==3.1
+# Note: Graph structures
+jinja2==3.1.2
+# Note: Templating
+fsspec==2023.10.0
+# Note: File system utilities
+pyyaml==6.0.1
+# Note: YAML parsing
